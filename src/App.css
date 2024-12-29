@@ -1,0 +1,79 @@
+.App{
+
+  border: 2px solid #14fefe;
+  margin: 50px 30px;
+  padding: 20px 30px;
+height: 50vh;
+}
+h1{
+  text-align: center;
+  padding-bottom: 5px;
+}
+.todoList{
+  display: flex;
+  flex-direction: column;
+ 
+
+}
+.todoList ul li {
+  list-style-type: '➡️  ';
+  padding-top: 5px;
+  width: 50%;
+  overflow-wrap: break-word;
+  cursor: pointer;
+  font-size: 18px;
+
+  font-weight: 700;
+}
+input{
+  width: 50%;
+  padding: 10px;
+  border: 1px solid #14fefe;
+  outline: none;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ margin: 5px auto;
+ font-size: 18px;
+
+}
+.btn {
+  width: 20%;
+  font-size: 18px;
+  padding: 10px 20px;
+  background-color: #14fefe;
+  color: white;
+  border: none;
+  cursor: pointer;
+  margin: 10px auto;
+  transition: 0.5s;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -o-transition: 0.5s;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.btn:hover{
+  background-color: #626b6b;
+  border: 1px solid #14fefe;
+}
+.done{
+  text-decoration: line-through;
+}
+.close{
+
+  cursor: pointer;
+  padding-right: 40px;
+}
+
+.item{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 8px;
+  
+
+}
